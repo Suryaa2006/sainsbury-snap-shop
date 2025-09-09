@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { FilterSidebar } from "@/components/FilterSidebar";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SuggestedAddons } from "@/components/SuggestedAddons";
+import { ChatBot } from "@/components/ChatBot";
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -21,6 +22,8 @@ const Index = () => {
           </div>
         </div>
       </main>
+      
+      <ChatBot />
     </div>
   );
 };
