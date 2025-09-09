@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        grocery: {
+          orange: "hsl(var(--grocery-orange))",
+          "orange-light": "hsl(var(--grocery-orange-light))",
+          green: "hsl(var(--grocery-green))",
+          red: "hsl(var(--grocery-red))",
+        },
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        card: "var(--shadow-card)",
+        hover: "var(--shadow-hover)",
+        focus: "var(--shadow-focus)",
       },
       borderRadius: {
         lg: "var(--radius)",
